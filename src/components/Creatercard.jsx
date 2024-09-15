@@ -5,7 +5,7 @@ const Creatercard = (props) => {
         <div className=' w-[20rem] bg-white rounded-lg border-2 border-[#ececec]'>
             <div className='p-3 space-y-5'>
                 <div className=' relative'>
-                    <img className=' rounded-lg h-[18rem] object-cover' src={props.img} alt={props.alt} />
+                    <img style={{width:'-webkit-fill-available'}} className=' rounded-lg h-[18rem] object-cover' src={props.img} alt={props.alt} />
                     <p className=' absolute top-2 text-[#f46665] text-xs left-4 bg-[#fdeeed] rounded-3xl px-4 py-1' >{props.type}</p>
                 </div>
                 <div className=' flex justify-between'>
